@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { TableView } from "../commonComponents/Table/TableView";
+import { TableView } from "../commonComponents/Table";
 import { PaginatedView } from "../commonComponents/Pagination";
 import Spinner from "react-bootstrap/Spinner";
 import { apiCaller } from "../utils/apiCaller";

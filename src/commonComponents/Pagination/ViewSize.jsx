@@ -4,7 +4,7 @@ export const ViewSize = (props) => {
 	const { itemsPerPageOptions, itemsPerPage, handleItemsPerPageChange } = props;
 	return (
 		<div className="items-per-page">
-			<label>Items per page: </label>
+			<label className="label">Items per page: </label>
 			<select value={itemsPerPage} onChange={handleItemsPerPageChange}>
 				{itemsPerPageOptions.map((option) => (
 					<option key={option} value={option}>
