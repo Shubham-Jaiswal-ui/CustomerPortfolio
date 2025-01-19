@@ -1,4 +1,9 @@
-/* ------------------------ */
+.paginated-view-wrapper {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
 .pagination {
 	display: flex;
 	justify-content: center;
@@ -24,6 +29,7 @@
 .items-per-page {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	margin-top: 10px;
 }
 

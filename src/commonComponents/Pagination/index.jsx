@@ -21,7 +21,7 @@ export const PaginatedView = (props) => {
 	};
 
 	return (
-		<div>
+		<div className="paginated-view-wrapper">
 			<Pagination
 				currentPage={currentPage}
 				totalPages={totalPages}
